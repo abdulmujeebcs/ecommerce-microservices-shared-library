@@ -22,15 +22,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uzochukwueddie/jobberapp/tree/main/microservices.git"
+    "url": "git+https://github.com/abdulmujeebcs/ecommerce-microservices-shared-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "exports": {
     ".": {
-      "import": "./esm/index.js",
-      "require": "./cjs/index.js"
+      "import": "./src/index.js",
+      "require": "./src/index.js"
     },
     "./icons": {
       "import": "./esm/icons/index.js",
